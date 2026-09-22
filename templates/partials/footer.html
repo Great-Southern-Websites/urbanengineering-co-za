@@ -1,15 +1,30 @@
 {@io.quarkiverse.roq.frontmatter.runtime.model.Site site}
 <footer class="site-footer">
   <div class="container footer-grid">
-    <div>
-      <p class="footer-brand">Urban Engineering</p>
-      <!-- BUILDER: address, phone, email, hours from the original site -->
+    <div class="footer-brand">
+      <img class="logo-light" src="{=site.url('images/logo.png')}" alt="Urban Engineering" width="310" height="120" loading="lazy">
+      <img class="logo-dark" src="{=site.url('images/logo-dark.png')}" alt="Urban Engineering" width="310" height="120" loading="lazy">
+      <p>Consulting civil and structural engineers, founded in early 2018, serving government and private clients in the Southern Cape and Karoo.</p>
     </div>
     <div>
-      <!-- BUILDER: footer navigation -->
+      <p class="footer-title">Contact</p>
+      <p><a href="https://www.google.com/maps/search/?api=1&amp;query=18+Varing+Street,+Dormehlsdrift,+George,+6529,+South+Africa" rel="noopener">18 Varing Street, Dormehlsdrift, George, South Africa</a></p>
+      <p><a href="tel:+27448744098">044 874 4098</a></p>
+      <p><a href="mailto:admin@urbanengineering.co.za">admin@urbanengineering.co.za</a></p>
+      <p><a href="https://www.linkedin.com/company/urban-engineering-sa/" rel="noopener">Follow us on LinkedIn</a></p>
+    </div>
+    <div>
+      <p class="footer-title">Pages</p>
+      <ul>
+        <li><a href="{=site.url}">Home</a></li>
+        <li><a href="{=site.url('about')}">About</a></li>
+        <li><a href="{=site.url('services')}">Services</a></li>
+        <li><a href="{=site.url('contact')}">Contact</a></li>
+      </ul>
     </div>
   </div>
   <div class="container footer-bottom">
-    <p>&copy; Urban Engineering. All rights reserved.</p>
+    <p>&copy; Urban Engineering (Pty) Ltd. All rights reserved.</p>
+    <p>Consulting civil, structural and transportation engineers, George</p>
   </div>
 </footer>

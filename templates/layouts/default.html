@@ -15,7 +15,7 @@
   {#if site.data.containsKey("analytics")}
   {#ga4 tag=site.data.getJsonObject('analytics').getString("ga4", "") /}
   {/if}
-  <link rel="icon" href="{=site.url('favicon.svg')}" type="image/svg+xml">
+  <link rel="icon" href="{=site.url('favicon.png')}" type="image/png">
   <script>{|
     try {
       var t = localStorage.getItem('site-theme');
@@ -27,6 +27,9 @@
   {#bundle key="lightbox" tag="script" /}
   {#include partials/structured-data /}
   {#insert head /}
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="{=site.url('fonts/open-sans-400-normal-latin.woff2')}">
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="{=site.url('fonts/open-sans-600-normal-latin.woff2')}">
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="{=site.url('fonts/playfair-display-700-normal-latin.woff2')}">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>

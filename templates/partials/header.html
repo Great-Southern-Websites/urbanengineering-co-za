@@ -2,20 +2,18 @@
 <header class="site-header">
   <div class="container bar">
     <a class="brand" href="{=site.url}">
-      <!-- BUILDER: replace with the logo, or leave a wordmark if there is none.
-           Two images, one per theme, and main.css swaps them:
-             <img class="logo-light" src="{=site.url('images/logo.png')}" alt="Urban Engineering">
-             <img class="logo-dark" src="{=site.url('images/logo-dark.png')}" alt="Urban Engineering">
-           Both carry the name: only one is ever visible, and a hidden image is not
-           announced, so the link has exactly one name in either theme. -->
-      <span class="brand-name">Urban Engineering</span>
+      <img class="logo-light" src="{=site.url('images/logo.png')}" alt="Urban Engineering" width="310" height="120">
+      <img class="logo-dark" src="{=site.url('images/logo-dark.png')}" alt="Urban Engineering" width="310" height="120">
     </a>
     <input type="checkbox" id="nav-toggle" class="nav-toggle-input" aria-label="Toggle menu">
     <label for="nav-toggle" class="nav-toggle"><span></span></label>
     <nav class="site-nav" aria-label="Main navigation">
       <ul>
-        <!-- BUILDER: one <li> per page, mirroring the original site's navigation -->
         <li><a href="{=site.url}">Home</a></li>
+        <li><a href="{=site.url('about')}">About</a></li>
+        <li><a href="{=site.url('services')}">Services</a></li>
+        <li><a href="{=site.url('contact')}">Contact</a></li>
+        <li class="nav-phone"><a href="tel:+27448744098">044 874 4098</a></li>
       </ul>
     </nav>
   </div>

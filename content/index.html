@@ -1,15 +1,133 @@
 ---
-title: "Home"
-description: "BUILDER: one-sentence description of the business for search engines."
-image: logo.png
+title: "Urban Engineering"
+description: "Consulting civil, structural and transportation engineers in George, working for government and private clients across the Southern Cape and Karoo."
+image: civil-road-works.jpg
 layout: default
+analytics:
+  ga4: E3SR2WY0D6
 ---
-<!-- BUILDER: hero, then the sections that mirror the original home page. -->
 <section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <p class="label">Consulting civil and structural engineers</p>
+      <h1>Engineering for the Southern Cape and Karoo</h1>
+      <p class="lead">Urban Engineering (Pty) Ltd, founded in early 2018, delivers consulting services in civil, structural and transportation engineering to local, provincial and national government and to private clients.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="{=site.url('services')}">Our services</a>
+        <a class="btn btn-outline" href="{=site.url('contact')}">Contact us</a>
+        <a class="phone" href="tel:+27448744098">044 874 4098</a>
+      </div>
+    </div>
+    <figure>
+      <img src="{=site.url('images/civil-road-works-800.webp')}" srcset="{=site.url('images/civil-road-works-480.webp')} 480w, {=site.url('images/civil-road-works-800.webp')} 800w" sizes="100vw" alt="Aerial view of road works at an intersection, with new kerbing and a widened carriageway under construction" width="873" height="520" fetchpriority="high">
+      <figcaption><span class="fig">Fig. 01</span>Road works from the air</figcaption>
+    </figure>
+  </div>
+  <div class="title-block">
+    <div class="container">
+      <dl>
+        <div class="cell"><dt>Established</dt><dd>Early 2018</dd></div>
+        <div class="cell"><dt>Based in</dt><dd>George, Southern Cape</dd></div>
+        <div class="cell"><dt>Clients</dt><dd>Local, provincial and national government, and private clients</dd></div>
+        <div class="cell"><dt>Disciplines</dt><dd>Civil, structural, transportation and project management</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="section section-first" id="about">
   <div class="container">
-    <p class="eyebrow">Welcome</p>
-    <h1>Urban Engineering</h1>
-    <p class="lead">Replace this with the business's own words.</p>
-    <p class="hero-actions"><a class="btn btn-primary" href="{=site.url('contact')}">Contact us</a></p>
+    <div class="section-head"><span class="num">01</span><p class="label">About us</p></div>
+    <div class="split">
+      <div class="text">
+        <h2>A consulting practice built for public infrastructure</h2>
+        <p>Urban Engineering (Pty) Ltd was founded in early 2018 to deliver consulting services in civil, structural and transportation engineering. Our primary focus is professional services to local, provincial and national government entities, as well as private clients in the Southern Cape and Karoo regions.</p>
+        <p><a href="{=site.url('about')}">More about the practice</a></p>
+      </div>
+      <blockquote class="vision">
+        <p>Our vision is to offer cost-effective solutions in civil and structural engineering, fostering job creation and enhancing South Africa's infrastructure network.</p>
+        <cite>Urban Engineering</cite>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="services">
+  <div class="container">
+    <div class="section-head"><span class="num">02</span><p class="label">Services</p></div>
+    <div class="section-intro">
+      <h2>Civil, structural, transportation and project management</h2>
+      <p>We work within various sectors and undertake specific services such as civil, structural, transportation and project management for a wide range of clients. Simple or complex, our team has the expertise and experience to design long-lasting solutions.</p>
+    </div>
+    <ol class="register">
+      <li class="register-row has-photo">
+        <span class="num" aria-hidden="true">01</span>
+        <div>
+          <h3>Civil</h3>
+          <p>Township services for private and public sector clients: geometric and pavement design, bulk earthworks, and water, sewer and stormwater reticulation.</p>
+          <a class="more" href="{=site.url('services')}#civil">Civil engineering</a>
+        </div>
+              <figure>
+          <img src="{=site.url('images/civil-road-works-800.webp')}" srcset="{=site.url('images/civil-road-works-480.webp')} 480w, {=site.url('images/civil-road-works-800.webp')} 800w" sizes="auto, (min-width: 60rem) 50vw, 100vw" alt="Aerial view of road works at an intersection, with new kerbing and a widened carriageway under construction" width="873" height="520" loading="lazy">
+          <figcaption><span class="fig">Fig. 01</span>Road works from the air</figcaption>
+        </figure>
+      </li>
+      <li class="register-row has-photo">
+        <span class="num" aria-hidden="true">02</span>
+        <div>
+          <h3>Structural</h3>
+          <p>Design and construction drawings for new concrete, steel, brick and timber structures, and assessment reports for existing ones.</p>
+          <a class="more" href="{=site.url('services')}#structural">Structural engineering</a>
+        </div>
+              <figure>
+          <img src="{=site.url('images/structural-steel-frame-800.webp')}" srcset="{=site.url('images/structural-steel-frame-480.webp')} 480w, {=site.url('images/structural-steel-frame-800.webp')} 800w" sizes="auto, (min-width: 60rem) 50vw, 100vw" alt="Workers on a reinforced concrete slab under a new steel portal frame, with the roof structure open to the sky" width="873" height="520" loading="lazy">
+          <figcaption><span class="fig">Fig. 02</span>Steel portal frame and slab reinforcement during construction</figcaption>
+        </figure>
+      </li>
+      <li class="register-row has-photo">
+        <span class="num" aria-hidden="true">03</span>
+        <div>
+          <h3>Transportation</h3>
+          <p>Traffic and transportation services, from small impact studies and assessments to provincial scale arterial management plans.</p>
+          <a class="more" href="{=site.url('services')}#transportation">Transportation engineering</a>
+        </div>
+              <figure>
+          <img src="{=site.url('images/transportation-viaduct-800.webp')}" srcset="{=site.url('images/transportation-viaduct-480.webp')} 480w, {=site.url('images/transportation-viaduct-800.webp')} 800w" sizes="auto, (min-width: 60rem) 50vw, 100vw" alt="Underside of a concrete road viaduct, with its piers and deck seen against the sky" width="873" height="520" loading="lazy">
+          <figcaption><span class="fig">Fig. 03</span>Concrete viaduct piers and deck</figcaption>
+        </figure>
+      </li>
+      <li class="register-row">
+        <span class="num" aria-hidden="true">04</span>
+        <div>
+          <h3>Project management</h3>
+          <p>Project management across the sectors we work in, for public and private clients.</p>
+          <a class="more" href="{=site.url('services')}#project-management">Project management</a>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="container">
+    <div class="section-head"><span class="num">03</span><p class="label">Contact us</p></div>
+    <div class="contact-grid">
+      <div>
+        <h2>Find us in George</h2>
+        <ul class="contact-list">
+          <li><span class="k">Address</span><p class="v"><a href="https://www.google.com/maps/search/?api=1&amp;query=18+Varing+Street,+Dormehlsdrift,+George,+6529,+South+Africa" rel="noopener">18 Varing Street, Dormehlsdrift, George, South Africa</a></p></li>
+          <li><span class="k">Phone</span><p class="v"><a href="tel:+27448744098">044 874 4098</a></p></li>
+          <li><span class="k">Email</span><p class="v"><a href="mailto:admin@urbanengineering.co.za">admin@urbanengineering.co.za</a></p></li>
+          <li><span class="k">Follow</span><p class="v"><a href="https://www.linkedin.com/company/urban-engineering-sa/" rel="noopener">Urban Engineering on LinkedIn</a></p></li>
+        </ul>
+        <div class="actions">
+          <a class="btn btn-primary" href="mailto:admin@urbanengineering.co.za">Email us</a>
+          <a class="btn btn-outline" href="{=site.url('contact')}">Contact page</a>
+        </div>
+      </div>
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8469.171084381986!2d22.453026464434597!3d-33.95969499460821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dd605481e603227%3A0x315690bc35709cd5!2s18%20Varing%20Ave%2C%20Dormehls%20Drift%2C%20George%2C%206529!5e0!3m2!1sen!2sza!4v1707930002419!5m2!1sen!2sza" title="Map showing the Urban Engineering office at 18 Varing Street, Dormehlsdrift, George" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
   </div>
 </section>
